@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Let's Go</title>
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, intial-scale = 1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <!--logo-->
+        <img src="images/logo.png" id="logo">
+        <nav>
+            <a class="active" href="index.html" style="text-decoration: none;">Home</a>
+            <a href="destination.html" style="text-decoration: none;">Destination</a>
+            <a href="gallery.html" style="text-decoration: none;">Gallery</a>
+            <a href="book.html" style="text-decoration: none;">Book</a>
+            <a href="login.html" style="text-decoration: none;">Login</a>
+        </nav>
+    </header>
+
+    <div class="login_container">
+        <h2>Login  <button onclick="show()" id="new_user">New User?</button></h2>
+        <div class="box">
+            <label for="name" class="field_name">Username:-</label>
+        <input type="text" placeholder="Enter Your Name" class="input_field">
+        </div>
+        <div class="box">
+            <label for="password" class="field_name">Password:-</label>
+        <input type="text" placeholder="Enter Your Password" class="input_field">
+        </div>
+        <div class="box">
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div class="box">
+            <button id="forPassword">Forgot Password?</button>
+        <input type="checkbox" checked="unchecked" name="remember" style="text-decoration: none;">Remember me
+        </div>
+    </div>
+
+<div class="register_container">
+    <h2>Register</h2>
+    <div class="box">
+        <label for="name" class="field_name">Name</label>
+        <input type="text" class="input_field" placeholder="Enter Your Name">
+    </div>
+    <div class="box">
+        <label for="e-mail" class="field_name">E-mail</label>
+        <input type="text" class="input_field" placeholder="Enter Your E-mail">
+    </div>
+    <div class="box">
+        <label for="number" class="field_name">Mobile no.</label>
+        <input type="text" class="input_field" placeholder="Enter Your Mobile no.">
+    </div>
+    <div class="box">
+        <label for="address" class="field_name">Address</label>
+        <input type="text" class="input_field" placeholder="Enter Your Address">
+    </div>
+    <div class="box">
+        <button id="submitBtn">Submit</button>
+    </div>
+</div>
+
+<div class="password_container">
+    <div class="box">
+        <label for="name" class="field_name">Username:-</label>
+        <input type="text" placeholder="Enter Your Name" class="input_field">
+    </div>
+    <div class="box">
+        <label for="new_password" class="field_name">New Password:-</label>
+        <input type="text" placeholder="Enter Your New Password" class="input_field">
+    </div>
+    <div class="box">
+        <label for="confirm_password" class="field_name">Renter Password:-</label>
+        <input type="text" placeholder="Renter Your Password" class="input_field">
+    </div>
+    <div class="box">
+        <button id="submitBtn">Submit</button>
+    </div>
+</div>
+<script src="home.js"></script>
+</body>
+
+</html>
